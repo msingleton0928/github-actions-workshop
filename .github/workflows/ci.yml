@@ -1,4 +1,4 @@
-name: PUSH Verify
+name: PR Verify
 
 on:
 # Can also trigger on a push, would run tests on any push
@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    name: Push Verify
+    name: PR Verify
     runs-on: ubuntu-22.04
 
     steps:
